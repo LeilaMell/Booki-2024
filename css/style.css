@@ -370,12 +370,12 @@ footer {
     padding: 2% 25% 2% 5%;
 }
 
-footer h3 {
+footer h2 {
     font-weight: bold;
     font-size: 18px;
 }
 
-footer div a {
+footer section a {
     text-decoration: none;
     color: black;
 }
@@ -462,7 +462,7 @@ footer div a {
         padding: 1% 5% 3% 5%;
     }
 
-    footer h3 {
+    footer h2 {
         font-size: 15px;
     }
 
@@ -678,7 +678,7 @@ footer div a {
         padding-left: 5%;
     }
 
-    footer h3 {
+    footer h2 {
         font-size: larger;
     }
     
