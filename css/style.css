@@ -69,7 +69,7 @@ header nav a:hover {
     align-items: center;
     color: black;
     background-color: #F2F2F2;
-    border: 1px solid white; 
+    border: none;
     height: 50px;
     width: 50px;
     border-radius: 15px 0 0 15px;
@@ -79,7 +79,9 @@ header nav a:hover {
     font-size: 15px;
     font-weight: bold;
     color: black;
-    padding-left: 20px;
+    padding: 0 20px;
+    border-top: 1px solid rgb(224, 224, 224);
+    border-bottom: 1px solid rgb(224, 224, 224);
  }
 
  #search::placeholder{
@@ -522,6 +524,7 @@ footer section a {
 
     .recherche {
         margin-top: 15px;
+        align-self: center;
     }
 
 
@@ -546,6 +549,11 @@ footer section a {
         color: white;
         font-size: medium;
         display: flex;
+    }
+
+    .recherche #rechercher{
+        position: relative;
+        left: -10px;
     }
 
     #filtres {
